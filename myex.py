@@ -22,7 +22,7 @@ def orange_cats():
     st.title("🐈 🐈")
     st.markdown("🐾 🐾 🐾 🐾")
 
-def cats():
+def cats(card_a, card_b, card_c):
     container_a = card_a.container()
     container_b = card_b.container()
     container_c = card_c.container()
