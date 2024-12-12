@@ -33,7 +33,14 @@ def cats(card_a, card_b, card_c):
     with container_c:
         black_cats()
 
-with :
-    cats(grid[0].empty(), grid[2].empty(), grid[4].empty())
-    cats(grid[1].empty(), grid[3].empty(), grid[5].empty())
+#with :
+    #cats(grid[0].empty(), grid[2].empty(), grid[4].empty())
+    #cats(grid[1].empty(), grid[3].empty(), grid[5].empty())
    # st.button("Herd all the cats")
+
+# Display cats in the containers 
+cats(grid[0], grid[2], grid[4]) cats(grid[1], grid[3], grid[5]) 
+
+# Add a button to trigger the display
+
+if st.button("Herd all the cats"): cats(grid[0], grid[2], grid[4]) cats(grid[1], grid[3], grid[5]
