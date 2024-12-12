@@ -43,4 +43,4 @@ def cats(card_a, card_b, card_c):
 
 # Add a button to trigger the display
 
-if st.button("Herd all the cats"): cats(grid[0], grid[2], grid[4]) cats(grid[1], grid[3], grid[5])
+if st.button("Herd all the cats"): cats(grid[0], grid[2], grid[4]); cats(grid[1], grid[3], grid[5])
